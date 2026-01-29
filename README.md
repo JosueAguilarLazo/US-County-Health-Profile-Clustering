@@ -70,7 +70,7 @@ To provide deeper analysis, I developed a `heatmap_for_county()` function. This 
 ## Project Structure
 ```text
 ├── data/
-│   ├── county_health_profile data.csv   # Raw dataset from county health rankings
-├── County_health_profules.ipynb         # Main file with ML and Clustering
-├── README.md                            # Project documentation
-└── requirements.txt                     # Installation for dependencies
+│   ├── 2025_county_health_data.csv        # Raw dataset from county health rankings
+├── county_health_profiles_analysis.ipynb  # Main file with ML and Clustering
+├── README.md                              # Project documentation
+└── requirements.txt                       # Installation for dependencies
