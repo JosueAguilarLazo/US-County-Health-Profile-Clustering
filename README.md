@@ -67,7 +67,8 @@ To provide deeper analysis, I developed a `heatmap_for_county()` function. This 
 | **Visualization** | Seaborn, Matplotlib |
 
 ---
-
+## Project Structure
+```text
 ├── data/
 │   ├── 2025_county_health_rankings.csv  # Raw dataset
 │   └── processed_health_data.csv        # Cleaned/scaled features
