@@ -1,4 +1,7 @@
 # Identifying U.S. Counties Based on Health profile
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
 ### *Developing clusters and membership probabilities across 3,100+ counties.*
 
 ---
@@ -53,16 +56,21 @@ To provide deeper analysis, I developed a `heatmap_for_county()` function. This 
 **Insight:** This reveals that a county might be assigned to Cluster 1 overall, but its "Signature" might show it belongs to Cluster 0 in terms of "Clinical Care," providing a more precise roadmap for policy interventions.
 
 
-
 ---
 
 ## Technologies Used
-* **Python**
-* **Data Science:** Pandas, NumPy
-* **Machine Learning:** Scikit-Learn (K-Means, PCA, StandardScaler)
-* **Visualization:** Seaborn, Matplotlib
+| Category | Tools |
+| :--- | :--- |
+| **Language** | Python (3.10+) |
+| **Data Science** | Pandas, NumPy |
+| **Machine Learning** | Scikit-Learn (K-Means, PCA, StandardScaler) |
+| **Visualization** | Seaborn, Matplotlib |
 
 ---
 
-## Conclusion
-This project demonstrates that effective public health policy cannot ignore systemic issues. Local interventions should be implemented alongside systemic ones to have the strongest influence. By using unsupervised learning and similarity scoring, we can identify "similar counties" that face identical challenges despite being geographically distant. This framework allows for effective targeted resource allocation based on specific health needs (e.g., fixing water violations vs. increasing mental health providers).
+├── data/
+│   ├── 2025_county_health_rankings.csv  # Raw dataset
+│   └── processed_health_data.csv        # Cleaned/scaled features
+├── health_clustering_analysis.ipynb     # Main ML pipeline & modeling
+├── README.md                            # Project documentation
+└── requirements.txt                     # Installation for dependencies
