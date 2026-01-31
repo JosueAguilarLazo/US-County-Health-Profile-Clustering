@@ -4,6 +4,20 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
 ### *Developing clusters and membership probabilities across 3,100+ counties.*
 
+<img width="857" height="547" alt="download (1)" src="https://github.com/user-attachments/assets/bd8eca6b-00a5-45b7-aaaf-fcbab331129e" />
+Visualized using Principal Component Analysis(PCA) to reduce features into a 2D space and retaining 90% of the variance.
+
+
+---
+
+## Cluster Archetypes
+| Cluster | Identity | Characteristics |
+| :--- | :--- | :--- |
+| **Cluster 0 (Red)** | **Above Average Counties** | High access to care and exercise; higher environmental stress. |
+| **Cluster 1 (Blue)** | **High Intervention** | Facing systemic challenges; higher rates of poverty and barriers to care. |
+| **Cluster 2 (Green)** | **National Baseline** | Representing the "average" American county metrics. |
+| **Cluster 3 (Purple)** | **Top Performers** | Exceptional health outcomes; low poverty; highest education levels. |
+
 ---
 
 ## Project Overview
@@ -29,19 +43,6 @@ Before clustering, I developed a tool to find "Similar Counties" using **Cosine 
 * **Dimensionality Reduction:** I used PCA to visualize the 20+ features in a 2D space.
     * **PCA1 (Socioeconomic Axis):** Influenced by poverty, education, and fair/poor health scores.
     * **PCA2 (Clinical Access Axis):** Influenced by the density of mental health providers, doctors, and dentists.
-
-
-
-
----
-
-## Cluster Archetypes
-| Cluster | Identity | Characteristics |
-| :--- | :--- | :--- |
-| **Cluster 0** | **Above Average Counties** | High access to care and exercise; higher environmental stress. |
-| **Cluster 1** | **High Intervention** | Facing systemic challenges; higher rates of poverty and barriers to care. |
-| **Cluster 2** | **National Baseline** | Representing the "average" American county metrics. |
-| **Cluster 3** | **Top Performers** | Exceptional health outcomes; low poverty; highest education levels. |
 
 ---
 
